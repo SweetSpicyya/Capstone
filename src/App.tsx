@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import ResetPassword from './pages/ResetPassword';
 import Home from './pages/Home';
 import ShiftForm from './pages/ShiftForm';
+import EditProfile from './pages/EditProfile';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
             <Route path="/reset-password" element={<ResetPassword />} />
+            <Route path="/edit-profile" element={<EditProfile />} />
             <Route path="/add-shift" element={<ShiftForm />} />
             <Route path="/edit-shift/:slug" element={<ShiftForm />} />
 
